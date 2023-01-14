@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Heading Styles */
+.heading{
+    display: flex;
+    justify-content: center;
+    gap: 560px;
+    padding: 40px 240px;
+}
+.project-name{
+    font-weight: 900;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner */
+.new-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.group-info{
+    text-align: center;
+    width:900px;
+    height: 325px;
+    margin-bottom: 30px;   
+}
+.tagline{
+    font-size: 50px;
+    font-weight: 700;
+}
+.group-talk{
+    font-weight: 400;
+    color: #727272;
+}
+.button-style button{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa500;
+    color: #ffffff;
+}
+/* featuring items */
+.container{
+    background-color: #ffffff;
+    padding: 40px 240px;
+}
+.featuring{
+    display: flex;
+    justify-content: center;
+}
+.feature-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.teamwork img{
+    border: none;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+}
+.quick-features{
+    margin:auto;
+    text-align: left;
+    width: 500px;
+    height: 320px;
+}
+.feature-line{
+    font-weight: 700;
+    font-size: 45px;
+}
+.feature-line .special{
+    color: #727272;
+}
+.feature-line .highlight{
+    color: #ffa500;
+}
+/* most effectiv features */
+.feature-info{
+    margin: auto;
+    width: 586px;
+    height: 982px;
+}
+.feature-heading{
+    border-left: 5px solid #ffa500;
+    padding-left: 10px;
+    width: 400px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.details{
+    margin: 10px 10px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature-look img{
+    height: 850px;
+}
+.feature-look button{
+    position: relative;
+    top: -100px;
+    left: -50px;
+    width: 250px;
+    height: 150px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.expo{
+    font-size: 18px;
+}
+/* some facts stylings */
+.card-holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin: auto;
+    border: 1px solid #ffa500;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.card img{
+    padding-top: 20px;
+}
+
